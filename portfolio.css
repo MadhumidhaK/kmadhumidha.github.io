@@ -1,0 +1,157 @@
+dt{
+    color: rgb(153, 16, 16);
+}
+
+dt{
+    margin-top: 10px;
+}
+
+body{
+   font-family: 'Merriweather', serif;
+}
+
+#header{
+    height: 110px;
+}
+#name{
+    height:100px;
+    width: 100%;
+    background-color: rgb(101, 175, 194);
+    border:rgb(133, 127, 118) solid 2px;
+    color:white;
+    border-radius: 15px;
+    display: table;
+    text-align: center;
+}
+
+#name a{
+    font-size: 40px;    
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#name a:visited{
+    color: white;
+}
+
+#name a:hover{
+    color: rgb(180, 252, 224);
+}
+
+#navs{
+    height:50px;
+    margin: 10px 10px 20px 0px;
+    width: 100%;
+    background-color: rgb(133, 214, 235);
+    color: black;
+    border: slategrey solid 2px;
+    border-radius: 15px;
+}
+#contacts{
+    list-style: none;
+    justify-content: space-evenly;
+}
+#contacts li p{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 18px;
+    justify-content: center;
+}
+#contacts li p span{
+    margin-left: 5px;
+    align-self: center;
+}
+
+.flexing{
+    display: flex;
+}
+.icons{
+    /* margin-left: 70px;
+    margin-top: 15px;
+    margin-right: 10px; */
+    border-radius: 15px;
+    height: 25px;
+    width: 25px;
+}
+
+/* .icons:hover{
+    height: 30px;
+    margin-left: 60px;
+    margin-top: 15px;
+    margin-right: 10px;
+    width: 30px;
+} */
+.right-align{
+    justify-content: align-self;
+    margin-left: auto;
+}
+#body{
+    height: 700px;
+    border: solid 2px rgb(133, 127, 118);
+    border-radius: 15px;
+}
+#main{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+#summary{
+    height: 200px;
+    border-radius: 15px;
+    background-color: rgb(231, 236, 236);;
+    border:rgb(133, 127, 118) solid 2px;
+    margin: 10px 10px 10px 10px;
+}
+.details{
+    height: 448px;
+    margin: 10px 10px 10px 10px;
+    width:34%;
+    border:rgb(133, 127, 118) solid 2px;
+    border-radius: 15px;
+    background: rgb(231, 236, 236);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(61, 56, 56);
+    position: relative;
+}
+
+/* .details:hover{
+    height: 460px;
+    margin: 0px 10px 0px 10px;
+    width:37%;
+} */
+.details div{
+    margin: 10px 0px 0px 10px;
+}
+#footer{
+    margin:  10px 10px 10px 10px ;
+}
+
+.details-div{
+    height: 400px;
+}
+.details-page{
+    margin-left: 300px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: olivedrabite;
+}
+
+a {
+    text-decoration: none;
+}
+
+.arrow{
+    margin-left: 4px;
+    background-color: darkslategrey;
+    color: white;
+    padding: 7px 14px;
+    border: solid 2px black;
+    border-radius: 50%;
+}
+
+.arrow:hover{
+    background-color: rgb(103, 145, 132);
+    color: black;
+}
